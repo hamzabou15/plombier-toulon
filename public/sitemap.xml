@@ -26,56 +26,35 @@
 
   <!-- Pages de services -->
   <url>
-    <loc>https://plombiercannes-expert.fr/services/installation-renovation-plomberie</loc>
+    <loc>https://plombiercannes-expert.fr/services/depannage-plomberie-urgence-cannes</loc>
     <lastmod>2025-07-19</lastmod>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://plombiercannes-expert.fr/services/depannage-plomberie</loc>
+    <loc>https://plombiercannes-expert.fr/services/debouchage-canalisation-cannes</loc>
     <lastmod>2025-07-19</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://plombiercannes-expert.fr/services/salle-de-bains-pmr</loc>
+    <loc>https://plombiercannes-expert.fr/services/eparation-fuite-eau-cannes</loc>
     <lastmod>2025-07-19</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://plombiercannes-expert.fr/services/installation-chauffage</loc>
+    <loc>https://plombiercannes-expert.fr/services/installation-chauffe-eau-cannes</loc>
     <lastmod>2025-07-19</lastmod>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://plombiercannes-expert.fr/services/remplacement-chaudiere</loc>
+    <loc>https://plombiercannes-expert.fr/services/renovation-salle-de-bains-cannes</loc>
     <lastmod>2025-07-19</lastmod>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://plombiercannes-expert.fr/services/climatisation-reversible</loc>
+    <loc>https://plombiercannes-expert.fr/services/entretien-chaudiere-cannes</loc>
     <lastmod>2025-07-19</lastmod>
     <priority>0.7</priority>
   </url>
-  <url>
-    <loc>https://plombiercannes-expert.fr/services/entretien-chaudiere-climatisation</loc>
-    <lastmod>2025-07-19</lastmod>
-    <priority>0.7</priority>
-  </url>
-  <url>
-    <loc>https://plombiercannes-expert.fr/services/depannage-chauffage-climatisation</loc>
-    <lastmod>2025-07-19</lastmod>
-    <priority>1.0</priority>
-  </url>
-   <url>
-    <loc>https://plombiercannes-expert.fr/services/recherche-reparation-fuites</loc>
-    <lastmod>2025-07-19</lastmod>
-    <priority>1.0</priority>
-  </url>
-   <url>
-    <loc>https://plombiercannes-expert.fr/services/desembouage-circuits-chauffage</loc>
-    <lastmod>2025-07-19</lastmod>
-    <priority>1.0</priority>
-  </url>
-   <url>
     <loc>https://plombiercannes-expert.fr/services/installation-chauffe-eau</loc>
     <lastmod>2025-07-19</lastmod>
     <priority>1.0</priority>
