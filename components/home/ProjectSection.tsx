@@ -10,7 +10,6 @@ interface Project {
     image: string;
     alt: string;
 }
-
 const projects: Project[] = [
     {
         title: "Débouchage canalisation cuisine - Cannes Centre",
