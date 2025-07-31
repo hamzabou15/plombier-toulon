@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="https://www.sitemaps.org/schemas/sitemap/0.9">
+  <!-- Page d'accueil -->
+  <url>
+    <loc>https://plombiercannes-expert.fr/</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Pages principales -->
+  <url>
+    <loc>https://plombiercannes-expert.fr/services</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plombiercannes-expert.fr/contact</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plombiercannes-expert.fr/a-propos</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- Pages de services -->
+  <url>
+    <loc>https://plombiercannes-expert.fr/services/installation-renovation-plomberie</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://plombiercannes-expert.fr/services/depannage-plomberie</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plombiercannes-expert.fr/services/salle-de-bains-pmr</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plombiercannes-expert.fr/services/installation-chauffage</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://plombiercannes-expert.fr/services/remplacement-chaudiere</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://plombiercannes-expert.fr/services/climatisation-reversible</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://plombiercannes-expert.fr/services/entretien-chaudiere-climatisation</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://plombiercannes-expert.fr/services/depannage-chauffage-climatisation</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>1.0</priority>
+  </url>
+   <url>
+    <loc>https://plombiercannes-expert.fr/services/recherche-reparation-fuites</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>1.0</priority>
+  </url>
+   <url>
+    <loc>https://plombiercannes-expert.fr/services/desembouage-circuits-chauffage</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>1.0</priority>
+  </url>
+   <url>
+    <loc>https://plombiercannes-expert.fr/services/installation-chauffe-eau</loc>
+    <lastmod>2025-07-19</lastmod>
+    <priority>1.0</priority>
+  </url>
+  
+</urlset>

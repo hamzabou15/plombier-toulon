@@ -1,0 +1,37 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Plumber",
+  "name": "Plombier Cannes Expert",
+  "image": "https://plombiercannes-expert.fr/images/plombier-cannes.webp",
+  "url": "https://plombiercannes-expert.fr",
+  "telephone": "+33612345678",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "10 Rue Masséna",
+    "addressLocality": "Cannes",
+    "postalCode": "06000",
+    "addressCountry": "FR"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 43.7031,
+    "longitude": 7.2661
+  },
+  "openingHoursSpecification": [
+    {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": [
+        "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"
+      ],
+      "opens": "00:00",
+      "closes": "23:59"
+    }
+  ],
+  "description": "Plombier à Cannes disponible 24h/24 pour toute urgence plomberie, débouchage, fuite, installation ou rénovation.",
+  "priceRange": "€€",
+  "paymentAccepted": "Cash, Credit Card",
+  "areaServed": {
+    "@type": "Place",
+    "name": "Cannes et alentours"
+  }
+}

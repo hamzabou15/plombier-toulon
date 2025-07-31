@@ -1,0 +1,4 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://plombiercannes-expert.fr/sitemap.xml
