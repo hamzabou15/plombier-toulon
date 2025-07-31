@@ -35,7 +35,7 @@ export default function PlumbingIntro() {
                     </p>
 
                     <div className="flex flex-col mx-auto gap-4">
-                        <Link href="/contact">
+                        <Link href="/contact" className="max-md:mx-auto">
                             <Button size={"lg"} variant="submit">
                                 ☎ Demander un devis
                             </Button>
@@ -43,7 +43,7 @@ export default function PlumbingIntro() {
                         <a
                             href="tel:+33612345678"
                             aria-label="Appeler un plombier en urgence à Cannes"
-                            className="flex items-center gap-2 bg-[#3a5a40] text-white px-4 py-2 rounded-md font-medium max-sm:mx-auto"
+                            className="flex items-center gap-2 bg-[#3a5a40] text-white px-4 py-2 rounded-md font-medium max-sm:mx-auto w-[max-content]"
                         >
                             <Phone className="w-5 h-5" />
                             <span className="font-semibold">+33 7 56 93 52 00</span>

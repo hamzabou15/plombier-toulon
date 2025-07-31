@@ -42,7 +42,7 @@ export default function Header() {
                     <Image
                         src="/images/logo-plombier-cannes-expert.svg"
                         alt="Logo Plombier Cannes Expert"
-                        width={50}
+                        width={150}
                         height={50}
                     />
                 </Link>
