@@ -6,21 +6,21 @@ import { Button } from '../ui/button';
 import { useForm, ValidationError } from '@formspree/react';
 
 const ContactForm = () => {
-    const [state, handleSubmit] = useForm('mjkobgqo'); // Remplace par ton ID Formspree
+    const [state, handleSubmit] = useForm('xvgqbkzy'); // Remplace par ton ID Formspree
 
     return (
         <>
             <Head>
-                <title>Contact Plombier à Cannes – Demandez un devis gratuit</title>
+                <title>Contact Plombier à Toulon – Demandez un devis gratuit</title>
                 <meta
                     name="description"
-                    content="Besoin d’un plombier à Cannes ? Contactez-nous dès maintenant pour une intervention rapide, un diagnostic ou une mise aux normes. Réponse garantie en moins de 24h."
+                    content="Besoin d’un plombier à Toulon ? Contactez-nous dès maintenant pour une intervention rapide, un diagnostic ou une mise aux normes. Réponse garantie en moins de 24h."
                 />
             </Head>
 
             <section
-                id="contact-plombier-cannes"
-                aria-label="Formulaire de contact pour dépannage plomberie à Cannes"
+                id="contact-plombier-toulon"
+                aria-label="Formulaire de contact pour dépannage plomberie à Toulon"
                 className="w-full bg-white py-20 px-8 md:px-8"
             >
                 <div className="max-w-3xl mx-auto text-center mb-12">
@@ -47,7 +47,7 @@ const ContactForm = () => {
                         <input
                             type="hidden"
                             name="_subject"
-                            value="Nouvelle demande – Formulaire plombier Cannes"
+                            value="Nouvelle demande – Formulaire plombier Toulon"
                         />
                         <div className="flex flex-col md:flex-row gap-6">
                             <input
@@ -87,7 +87,7 @@ const ContactForm = () => {
                         <div className="flex justify-center mt-4">
                             <button
                                 type="submit"
-                                className="mt-4 w-fit px-6 py-2 bg-[#3a5a40] text-white font-semibold  hover:bg-[#0e5a61] transition col-span-2"
+                                className="mt-4 w-fit px-6 py-2 bg-[#0077B6] text-white font-semibold  hover:bg-[#005f87] transition col-span-2"
                             >
                                 Envoyer ma demande
                             </button>

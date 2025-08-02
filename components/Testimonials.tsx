@@ -8,26 +8,26 @@ import { useSwipeable } from "react-swipeable";
 const testimonials = [
     {
         name: "Nathalie Dupont",
-        location: "Cannes Centre (06)",
+        location: "Toulon Centre (06)",
         image: "/icons/user1.webp",
         quote:
-            "Intervention rapide pour détecter une fuite d'eau encastrée à Cannes Centre. Réponse en urgence 24h/24. Service professionnel, je recommande vivement !",
+            "Intervention rapide pour détecter une fuite d'eau encastrée à Toulon Centre. Réponse en urgence 24h/24. Service professionnel, je recommande vivement !",
         color: "black",
     },
     {
         name: "Olivier Martin",
-        location: "Cannes Ouest (06)",
+        location: "Toulon Ouest (06)",
         image: "/icons/user2.webp",
         quote:
-            "Très professionnel, dépannage en urgence sans casse à Cannes Ouest. Détection de fuite impeccable, prix raisonnables. Service de plombier recommandé.",
+            "Très professionnel, dépannage en urgence sans casse à Toulon Ouest. Détection de fuite impeccable, prix raisonnables. Service de plombier recommandé.",
         color: "teal",
     },
     {
         name: "Claire Lefèvre",
-        location: "Cannes Est (06)",
+        location: "Toulon Est (06)",
         image: "/icons/user3.webp",
         quote:
-            "Intervention en urgence, détection rapide de la fuite d'eau. Aucun dégât, travail soigné. Plombier expérimenté et fiable à Cannes Est.",
+            "Intervention en urgence, détection rapide de la fuite d'eau. Aucun dégât, travail soigné. Plombier expérimenté et fiable à Toulon Est.",
         color: "teal",
     },
 ];
@@ -63,7 +63,7 @@ export default function Testimonials() {
             <div className="text-center mb-12">
                 <p className="text-sm tracking-widest text-gray-500 uppercase">Avis Clients</p>
                 <h2 className="text-4xl font-bold text-gray-900 mt-2">
-                    Ce que disent nos clients de Cannes
+                    Ce que disent nos clients de Toulon
                 </h2>
             </div>
 

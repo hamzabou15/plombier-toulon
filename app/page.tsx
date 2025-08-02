@@ -11,20 +11,20 @@ import type { Metadata } from "next";
 import LocalBusinessSchema from "@/components/SEO/LocalBusiness";
 
 export const metadata: Metadata = {
-  title: "Plombier Cannes │ Urgence 24h/24 - Devis Gratuit & Intervention Express",
-  description: "Plombier certifié à Cannes pour dépannage immédiat, fuites d'eau, débouchage canalisation et chauffe-eau. ☎ 06 XX XX XX XX - Intervention sous 30 min sur Cannes Centre, La Croisette, Le Suquet.",
-  keywords: "plombier cannes, urgence plomberie cannes, dépannage plomberie, débouchage canalisation cannes, fuite d'eau cannes, chauffe-eau cannes",
+  title: "Plombier Toulon │ Urgence 24h/24 - Artisan Certifié & Intervention Express",
+  description: "Plombier expert à Toulon pour dépannage immédiat 7j/7 : fuites d'eau, débouchage canalisation, chauffe-eau. ☎ +33 7 56 93 52 00 - Intervention rapide quartiers Toulon Centre, Mourillon, Pont-du-Las",
+  keywords: "plombier toulon, dépannage plomberie toulon, urgence plombier 24/7, débouchage canalisation toulon, fuite d'eau toulon, réparation chauffe-eau toulon, artisan plombier var",
   openGraph: {
-    title: "Plombier Cannes │ Urgence 24h/24 - Devis Gratuit & Intervention Express",
-    description: "Plombier expert à Cannes pour interventions rapides 7j/7. Fuites, canalisations, chauffe-eau - Service garanti",
-    url: "https://plombiercannes-expert.fr",
-    siteName: "Plombier Cannes Expert",
+    title: "Plombier Toulon Expert │ Urgence 24h/24 - Devis Gratuit & Intervention Rapide",
+    description: "Plombier certifié à Toulon pour interventions express 7j/7. Fuites, canalisations, chauffe-eau - Service garanti avec transparence tarifaire",
+    url: "https://plombiertoulon-expert.fr",
+    siteName: "Plombier Toulon Expert",
     images: [
       {
-        url: "https://plombiercannes-expert.fr/images/plombier-cannes-hero.webp",
+        url: "https://plombiertoulon-expert.fr/images/plombier-toulon-hero.webp",
         width: 1200,
         height: 630,
-        alt: "Plombier professionnel intervenant en urgence à Cannes",
+        alt: "Plombier professionnel en intervention d'urgence à Toulon",
       },
     ],
     locale: "fr_FR",
@@ -32,12 +32,12 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Plombier Cannes │ Urgence 24h/24 - Devis Gratuit & Intervention Express",
-    description: "☎ 06 XX XX XX XX - Plombier expert pour dépannage immédiat à Cannes. Fuites, canalisations, chauffe-eau - Service 24/7",
-    images: ["https://plombiercannes-expert.fr/images/plombier-cannes-hero.webp"],
+    title: "Plombier Toulon │ Urgence 24h/24 - Artisan Local & Intervention Express",
+    description: "☎ +33 756 93 52 00 - Plombier expert pour dépannage immédiat dans le Var. Fuites, canalisations, chauffe-eau - Service 24/7 avec garantie",
+    images: ["https://plombiertoulon-expert.fr/images/plombier-toulon-hero.webp"],
   },
   alternates: {
-    canonical: "https://plombiercannes-expert.fr",
+    canonical: "https://plombiertoulon-expert.fr",
   },
 };
 

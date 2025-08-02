@@ -5,17 +5,17 @@ import { motion } from 'framer-motion';
 
 const StatsCard = () => {
     const stats = [
-        { value: 920, label: 'Interventions plomberie réalisées à Cannes' },
+        { value: 920, label: 'Interventions plomberie réalisées à Toulon' },
         { value: 85, label: 'Fuites d’eau détectées et réparées rapidement' },
         { value: 25, label: 'Plombiers experts qualifiés à votre service' },
-        { value: 3, label: 'Quartiers et villes desservis autour de Cannes' },
+        { value: 3, label: 'Quartiers et villes desservis autour de Toulon' },
     ];
 
     return (
         <section
             className='bg-white w-full px-16 max-sm:px-6  h-auto py-12 xl:max-w-[1300px] m-auto'
-            id="chiffres-plomberie-cannes"
-            aria-label="Statistiques sur les interventions de plomberie à Cannes"
+            id="chiffres-plomberie-toulon"
+            aria-label="Statistiques sur les interventions de plomberie à Toulon"
         >
             <div className='flex items-start justify-between max-lg:flex-wrap max-lg:gap-y-6'>
                 {stats.map((stat, index) => (
@@ -97,7 +97,7 @@ const StatItem = ({
             >
                 {value === 98 ? "98%" : count}
             </motion.h1>
-            <span className='text-[18px] font-semibold text-center text-[#0f4c5c] max-lg:text-base'>
+            <span className='text-[18px] font-semibold text-center text-[#00B4D8] max-lg:text-base'>
                 {label}
             </span>
         </div>

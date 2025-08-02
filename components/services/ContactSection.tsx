@@ -40,14 +40,14 @@ export default function ContactForm() {
         onSubmit={handleSubmit}
         className="grid grid-cols-1 md:grid-cols-2 gap-4"
       >
-        <input type="hidden" name="_subject" value="Une nouvelle demande - Plombier sur Cannes" />
+        <input type="hidden" name="_subject" value="Une nouvelle demande - Plombier sur Toulon" />
 
-        <input type="text" name="Prénom" placeholder="Prénom" required className="border-b border-gray-300 focus:outline-none focus:border-[#3a5a40] py-2" />
-        <input type="text" name="Nom" placeholder="Nom" required className="border-b border-gray-300 focus:outline-none focus:border-[#3a5a40] py-2" />
-        <input type="email" name="Email" placeholder="Email" required className="border-b border-gray-300 focus:outline-none focus:border-[#3a5a40] py-2 col-span-2" />
-        <input type="tel" name="Téléphone" placeholder="Numéro de téléphone" required className="border-b border-gray-300 focus:outline-none focus:border-[#3a5a40] py-2 col-span-2" />
+        <input type="text" name="Prénom" placeholder="Prénom" required className="border-b border-gray-300 focus:outline-none focus:border-[#0077B6] py-2" />
+        <input type="text" name="Nom" placeholder="Nom" required className="border-b border-gray-300 focus:outline-none focus:border-[#0077B6] py-2" />
+        <input type="email" name="Email" placeholder="Email" required className="border-b border-gray-300 focus:outline-none focus:border-[#0077B6] py-2 col-span-2" />
+        <input type="tel" name="Téléphone" placeholder="Numéro de téléphone" required className="border-b border-gray-300 focus:outline-none focus:border-[#0077B6] py-2 col-span-2" />
 
-        <select name="Besoin" required className="border-b border-gray-300 focus:outline-none focus:border-[#3a5a40] py-2 col-span-2">
+        <select name="Besoin" required className="border-b border-gray-300 focus:outline-none focus:border-[#0077B6] py-2 col-span-2">
           <option value="">Sélectionnez votre besoin</option>
           <option value="Recherche de fuite encastrée">Recherche de fuite encastrée</option>
           <option value="Fuite plafond / mur / sol">Fuite plafond / mur / sol</option>
@@ -58,12 +58,12 @@ export default function ContactForm() {
 
         <button
           type="submit"
-          className="mt-4 mx-auto w-fit px-6 py-2 bg-[#3a5a40] text-white font-semibold rounded hover:bg-[#0e5a61] transition col-span-2"
+          className="mt-4 mx-auto w-fit px-6 py-2 bg-[#0077B6] text-white font-semibold rounded hover:bg-[#005f87] transition col-span-2"
         >
           Obtenir un diagnostic
         </button>
 
-        {status && <p className="col-span-2 text-sm mt-2 text-[#3a5a40]">{status}</p>}
+        {status && <p className="col-span-2 text-sm mt-2 text-[#0077B6]">{status}</p>}
       </form>
     </div>
   );

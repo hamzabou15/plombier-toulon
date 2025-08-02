@@ -15,28 +15,28 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Plombier à Cannes – Dépannage rapide et efficace | PlombierCannes Expert",
+  title: "Plombier à Toulon – Dépannage rapide et efficace | PlombierToulon Expert",
   description:
-    "Plombier professionnel à Cannes : dépannage en urgence, détection de fuites, débouchage, rénovation de salle de bains. Devis gratuit 7j/7 !",
+    "Plombier professionnel à Toulon : dépannage en urgence, détection de fuites, débouchage, rénovation de salle de bains. Devis gratuit 7j/7 !",
   keywords: [
-    "plombier Cannes",
-    "urgence plomberie Cannes",
-    "chauffe-eau Cannes",
-    "débouchage canalisation Cannes",
-    "rénovation salle de bains Cannes",
+    "plombier Toulon",
+    "urgence plomberie Toulon",
+    "chauffe-eau Toulon",
+    "débouchage canalisation Toulon",
+    "rénovation salle de bains Toulon",
   ],
   openGraph: {
-    title: "Plombier à Cannes – Dépannage rapide et efficace | PlombierCannes Expert",
+    title: "Plombier à Toulon – Dépannage rapide et efficace | PlombierToulon Expert",
     description:
-      "Interventions express à Cannes : fuite d’eau, débouchage, chauffe-eau, rénovation de salle de bains. Contactez un artisan local fiable.",
-    url: "https://plombiercannes-expert.fr/",
-    siteName: "PlombierCannes Expert",
+      "Interventions express à Toulon : fuite d’eau, débouchage, chauffe-eau, rénovation de salle de bains. Contactez un artisan local fiable.",
+    url: "https://plombiertoulon-expert.fr/",
+    siteName: "PlombierToulon Expert",
     images: [
       {
-        url: "/images/plombier-cannes-hero.webp",
+        url: "/images/plombier-toulon-hero.webp",
         width: 1200,
         height: 630,
-        alt: "Plombier professionnel à Cannes",
+        alt: "Plombier professionnel à Toulon",
       },
     ],
     locale: "fr_FR",
@@ -56,7 +56,7 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className="antialiased bg-white text-[#0f4c5c]">
+      <body className="antialiased bg-white text-[#00B4D8]">
         <Header />
         <CTA />
         {children}

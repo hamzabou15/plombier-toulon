@@ -20,23 +20,23 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
 
   if (!service) {
     return {
-      title: 'Service non trouvé - Plombier Expert Cannes',
+      title: 'Service non trouvé - Plombier Expert Toulon',
       description: "Service de plomberie introuvable sur notre site",
     };
   }
 
   return {
-    title: `${service.title} | Plombier Expert à Cannes`,
+    title: `${service.title} | Plombier Expert à Toulon`,
     description: service.description,
     alternates: {
-      canonical: `https://www.plombiercannes-expert.fr/${service.link}`,
+      canonical: `https://www.plombiertoulon-expert.fr/${service.link}`,
     },
     openGraph: {
-      title: `${service.title} | Plombier Cannes`,
+      title: `${service.title} | Plombier Toulon`,
       description: service.description,
       images: [
         {
-          url: `https://www.plombiercannes-expert.fr/${service.image}`,
+          url: `https://www.plombiertoulon-expert.fr/${service.image}`,
           alt: service.alt,
         },
       ],
@@ -45,7 +45,7 @@ export async function generateMetadata({ params }: PageProps): Promise<Metadata>
     },
     keywords: [
       service.title.split(' ')[0],
-      'Cannes',
+      'Toulon',
       'Plombier',
       'Urgence',
       'Dépannage',
@@ -72,14 +72,14 @@ export default async function ServicePage({ params }: PageProps) {
             height={500}
             className="w-full h-auto max-h-[500px] object-cover rounded"
           />
-          <h2 className="text-4xl font-bold max-lg:text-3xl mt-6 text-[#0f4c5c]">
+          <h2 className="text-4xl font-bold max-lg:text-3xl mt-6 text-[#00B4D8]">
             {service.title}
           </h2>
           <p className="text-[#4d5562] mt-4">{service.description}</p>
 
           {service.child && (
             <>
-              <h3 className="text-xl font-semibold mt-6 text-[#0f4c5c]">
+              <h3 className="text-xl font-semibold mt-6 text-[#00B4D8]">
                 {service.child.title1}
               </h3>
               <div
@@ -91,7 +91,7 @@ export default async function ServicePage({ params }: PageProps) {
                   className="mt-4 object-cover w-full max-lg:max-h-64"
                   src={
                     service.child.img1 ??
-                    '/images/plombier-expert-sur-cannes.webp'
+                    '/images/plombier-expert-sur-toulon.webp'
                   }
                   alt="Pipeline 1"
                   width={300}
@@ -101,7 +101,7 @@ export default async function ServicePage({ params }: PageProps) {
                   className="mt-4 object-cover w-full max-lg:max-h-64"
                   src={
                     service.child.img2 ??
-                    '/images/plombier-expert-sur-cannes.webp'
+                    '/images/plombier-expert-sur-toulon.webp'
                   }
                   alt="Pipeline 2"
                   width={300}
@@ -109,7 +109,7 @@ export default async function ServicePage({ params }: PageProps) {
                 />
               </div>
 
-              <h3 className="text-xl font-semibold mt-6 text-[#0f4c5c]">
+              <h3 className="text-xl font-semibold mt-6 text-[#00B4D8]">
                 {service.child.title2}
               </h3>
               <div

@@ -15,8 +15,8 @@ const CTA = () => {
                 className="group flex items-center overflow-hidden hover:gap-2 shadow-lg animate-pulse"
             >
                 <a
-                    href="tel:+33612345678"
-                    aria-label="Appeler un plombier en urgence à Cannes"
+                    href="tel:+33756935200"
+                    aria-label="Appeler un plombier en urgence à Toulon"
                 >
                     <MdLocalPhone className="text-white text-xl" />
                     <span className="transition-all duration-300 opacity-0 max-w-0 group-hover:opacity-100 group-hover:max-w-[200px] ml-2">

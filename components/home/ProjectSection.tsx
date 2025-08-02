@@ -12,34 +12,34 @@ interface Project {
 }
 const projects: Project[] = [
     {
-        title: "Débouchage canalisation cuisine - Cannes Centre",
+        title: "Débouchage canalisation cuisine - Toulon Centre",
         category: "Intervention express sous 1h",
         image: "/images/salle-de-bain.webp",
-        alt: "Débouchage canalisation cuisine par plombier urgence Cannes",
+        alt: "Débouchage canalisation cuisine par plombier urgence Toulon",
     },
     {
         title: "Remplacement chauffe-eau - La Bocca",
         category: "Installation en 2h avec garantie",
-        image: "/images/entretien-de-chaudiere-a-cannes.webp",
-        alt: "Remplacement chauffe-eau par plombier Cannes",
+        image: "/images/entretien-de-chaudiere-a-toulon.webp",
+        alt: "Remplacement chauffe-eau par plombier Toulon",
     },
     {
         title: "Réparation fuite murale - Le Suquet",
         category: "Détection sans casse",
         image: "/images/Reparation-de-fuite-eau.webp",
-        alt: "Réparation fuite murale à Cannes par expert plomberie",
+        alt: "Réparation fuite murale à Toulon par expert plomberie",
     },
     {
         title: "Détection fuite enterrée - La Croisette",
         category: "Technologie non destructive",
         image: "/images/Inspection-de-canalisation-pour-fuite-enterrer.webp",
-        alt: "Détection fuite canalisation enterrée à Cannes",
+        alt: "Détection fuite canalisation enterrée à Toulon",
     },
     {
         title: "Rénovation salle de bain - Californie",
         category: "Travaux clé en main",
         image: "/images/Installations-de-canalisations-habiles.webp",
-        alt: "Rénovation salle de bain par plombier Cannes",
+        alt: "Rénovation salle de bain par plombier Toulon",
     },
 ];
 
@@ -81,11 +81,11 @@ export default function ProjectSection() {
                             Nos réalisations
                         </p>
                         <div className="flex gap-5 max-sm:flex-col">
-                            <h2 className="text-4xl font-extrabold max-md:text-3xl text-[#0f4c5c]">
-                                Interventions Plomberie à Cannes
+                            <h2 className="text-4xl font-extrabold max-md:text-3xl text-[#00B4D8]">
+                                Interventions Plomberie à Toulon
                             </h2>
                             <p className="mt-2 text-gray-600 max-w-xl text-base">
-                                Exemples concrets de dépannages urgents réalisés par nos plombiers experts sur Cannes et ses quartiers.
+                                Exemples concrets de dépannages urgents réalisés par nos plombiers experts sur Toulon et ses quartiers.
                             </p>
                         </div>
 
@@ -132,7 +132,7 @@ export default function ProjectSection() {
                                     className="object-cover transition-transform duration-500 group-hover:hover:scale-[1.1]"
                                 />
                                 <div className="absolute bottom-0 left-0 right-0 bg-white/95 px-4 py-3 translate-y-full group-hover:translate-y-[-20px] transition-transform duration-500 ease-in-out">
-                                    <h3 className="text-base font-semibold text-[#0f4c5c]">
+                                    <h3 className="text-base font-semibold text-[#00B4D8]">
                                         {project.title}
                                     </h3>
                                     <p className="text-sm text-gray-600">{project.category}</p>

@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://plombiercannes-expert.fr/sitemap.xml
+Sitemap: https://plombiertoulon-expert.fr/sitemap.xml

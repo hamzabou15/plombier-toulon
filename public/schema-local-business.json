@@ -1,14 +1,14 @@
 {
   "@context": "https://schema.org",
   "@type": "Plumber",
-  "name": "Plombier Cannes Expert",
-  "image": "https://plombiercannes-expert.fr/images/plombier-cannes.webp",
-  "url": "https://plombiercannes-expert.fr",
-  "telephone": "+33612345678",
+  "name": "Plombier Toulon Expert",
+  "image": "https://plombiertoulon-expert.fr/images/plombier-toulon.webp",
+  "url": "https://plombiertoulon-expert.fr",
+  "telephone": "+33756935200",
   "address": {
     "@type": "PostalAddress",
     "streetAddress": "10 Rue Masséna",
-    "addressLocality": "Cannes",
+    "addressLocality": "Toulon",
     "postalCode": "06000",
     "addressCountry": "FR"
   },
@@ -27,11 +27,11 @@
       "closes": "23:59"
     }
   ],
-  "description": "Plombier à Cannes disponible 24h/24 pour toute urgence plomberie, débouchage, fuite, installation ou rénovation.",
+  "description": "Plombier à Toulon disponible 24h/24 pour toute urgence plomberie, débouchage, fuite, installation ou rénovation.",
   "priceRange": "€€",
   "paymentAccepted": "Cash, Credit Card",
   "areaServed": {
     "@type": "Place",
-    "name": "Cannes et alentours"
+    "name": "Toulon et alentours"
   }
 }

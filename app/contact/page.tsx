@@ -4,19 +4,19 @@ import Head from 'next/head'
 import React from 'react'
 
 export const metadata = {
-    title: "Plombier à Cannes - Interventions rapides & professionnelles",
-    description: "Intervention express à Cannes pour dépannage, fuite, débouchage, chauffe-eau et plus. Plombier expérimenté, devis gratuit et service garanti.",
+    title: "Plombier à Toulon - Interventions rapides & professionnelles",
+    description: "Intervention express à Toulon pour dépannage, fuite, débouchage, chauffe-eau et plus. Plombier expérimenté, devis gratuit et service garanti.",
     openGraph: {
-        title: "Plombier à Cannes - Interventions rapides & professionnelles",
-        description: "Intervention express à Cannes pour dépannage, fuite, débouchage, chauffe-eau et plus.",
-        url: "https://plombiercannes-expert.fr",
-        siteName: "Plombier Cannes Expert",
+        title: "Plombier à Toulon - Interventions rapides & professionnelles",
+        description: "Intervention express à Toulon pour dépannage, fuite, débouchage, chauffe-eau et plus.",
+        url: "https://plombiertoulon-expert.fr",
+        siteName: "Plombier Toulon Expert",
         images: [
             {
-                url: "https://plombiercannes-expert.fr/images/plombier-cannes-hero.webp",
+                url: "https://plombiertoulon-expert.fr/images/plombier-toulon-hero.webp",
                 width: 800,
                 height: 600,
-                alt: "Plombier professionnel à Cannes",
+                alt: "Plombier professionnel à Toulon",
             },
         ],
         locale: "fr_FR",
@@ -24,9 +24,9 @@ export const metadata = {
     },
     twitter: {
         card: "summary_large_image",
-        title: "Plombier à Cannes - Interventions rapides & professionnelles",
-        description: "Plombier expérimenté pour dépannage, fuite, chauffe-eau, rénovation à Cannes. Service rapide, devis gratuit.",
-        images: ["https://plombiercannes-expert.fr/images/plombier-cannes-hero.webp"],
+        title: "Plombier à Toulon - Interventions rapides & professionnelles",
+        description: "Plombier expérimenté pour dépannage, fuite, chauffe-eau, rénovation à Toulon. Service rapide, devis gratuit.",
+        images: ["https://plombiertoulon-expert.fr/images/plombier-toulon-hero.webp"],
     },
 };
 const page = () => {
@@ -40,15 +40,15 @@ const page = () => {
                         __html: JSON.stringify({
                             "@context": "https://schema.org",
                             "@type": "LocalBusiness",
-                            name: "PlombierCannes Expert",
-                            image: "https://plombiercannes-expert.fr/images/plombier-cannes-hero.webp",
-                            "@id": "https://plombiercannes-expert.fr/",
-                            url: "https://plombiercannes-expert.fr/",
-                            telephone: "+33612345678",
+                            name: "PlombierToulon Expert",
+                            image: "https://plombiertoulon-expert.fr/images/plombier-toulon-hero.webp",
+                            "@id": "https://plombiertoulon-expert.fr/",
+                            url: "https://plombiertoulon-expert.fr/",
+                            telephone: "+33756935200",
                             address: {
                                 "@type": "PostalAddress",
                                 streetAddress: "12 Rue de France",
-                                addressLocality: "Cannes",
+                                addressLocality: "Toulon",
                                 postalCode: "06000",
                                 addressCountry: "FR",
                             },
