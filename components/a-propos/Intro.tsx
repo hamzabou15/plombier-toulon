@@ -78,7 +78,7 @@ export default function Intro() {
                     </div>
                     <div className="relative h-80 rounded-lg overflow-hidden shadow-lg border-2 border-white mt-12">
                         <Image
-                            src="/images/plombier-toulon.webp"
+                            src="/images/plombier-toulon-expert.webp"
                             alt="Plombier professionnel réparant une fuite d'eau à Toulon"
                             fill
                             className="object-cover"
