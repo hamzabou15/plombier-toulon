@@ -71,7 +71,7 @@ export default function PlumbingIntro() {
                     {[
                         "/images/plombier-toulon.Webp",
                         "/images/plombier-expert-toulon.webp",
-                        "/images/chauffeau.Webp",
+                        "/images/chauffeau.webp",
                         "/images/plombier-sur-toulon-fuite-Renovation.webp"
                     ].map((src, index) => (
                         <div key={index} className="relative h-72 rounded-lg overflow-hidden shadow-lg border border-gray-200">

@@ -67,7 +67,7 @@ export default function Intro() {
                 <div className="lg:w-1/2 grid grid-cols-2 gap-6 max-lg:w-full">
                     <div className="relative h-80 rounded-lg overflow-hidden shadow-lg border-2 border-white">
                         <Image
-                            src="/images/chauffeau.Webp"
+                            src="/images/chauffeau.webp"
                             alt="Remplacement de chauffe-eau par plombier expert à Toulon"
                             fill
                             className="object-cover"
